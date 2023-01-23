@@ -15,4 +15,4 @@ Hi! I am an undergraduate majoring in Computer Science. I am currently an exchan
 
 My interest includes numerical simulation of physical systems. I am also interested in the design and optimization of machine learning schemes. Currently I am looking for research assist positions in related fields.
 
-[Here](./../files/RuiqiFeng_CV_2023sp.pdf) is my resume.
+Here is my resume: [[PDF](./../files/RuiqiFeng_CV_2023sp.pdf)]
