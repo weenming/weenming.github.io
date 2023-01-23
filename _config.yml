@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Amazing Title
+title: An Amazing Title
 author: Ruiqi Feng
 email1: rfeng6@ncsu.edu
-email2: rqfeng20@fudan.edu.cn
+# email2: rqfeng20@fudan.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   This site is built with Jekyll. Thank you for visiting. 
   
@@ -38,8 +38,9 @@ plugins:
 
 header_pages:
   - home.md
-  - about.md
   - blogs.md
+  - about.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

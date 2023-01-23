@@ -4,11 +4,14 @@ title: Blogs
 permalink: /blogs/
 ---
 
-
+<header class="post-header">
+<h1 class="post-title">{{ page.title | escape }}</h1>
+</header>
 
 <ul class="post-list">
 {%- for post in site.posts -%}
-    {%- if post.categories == blog -%}
+    {% if post.type == "blog" %} 
+    <!-- display only the blog type posts -->
     <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -21,7 +24,7 @@ permalink: /blogs/
         {{ post.excerpt }}
         {%- endif -%}
     </li>
-    {%- endif -%}
+    {% endif %}
 {%- endfor -%}
 </ul>
 
