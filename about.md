@@ -11,8 +11,8 @@ title: About me
 </header>
 
 
-Hi! I am an undergraduate majoring in Computer Science. I am currently an exchange student at NC State University. Prior to that, I was majoring physics at Fudan University.
+Hi! I am an undergraduate in Computer Science. I am currently an exchange student at NC State University, prior to which, I was majoring Physics at Fudan University in Shanghai. I think of myself as a willing learner, if not a fast one. Knowing and understanding inspiring ideas is always exciting to me.
 
-My interest includes numerical simulation of physical systems using various techniques. I am also interested in the design and optimization of machine learning schemes. Currently I am looking for research assist positions in related fields.
+My interests include numerical simulation of physical systems using various techniques. I am also interested in the design and optimization of machine learning schemes.
 
 Here is my resume: [[PDF](./../files/RuiqiFeng_CV_2023sp.pdf)]
