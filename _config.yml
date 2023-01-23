@@ -17,10 +17,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-minima:
-  skin: dark
-  date_format: "%b %-d, %Y"
-  
+# minima:
+  # skin: dark
+  # date_format: "%b %-d, %Y"
+
 title: Ruiqi's Page
 author: Ruiqi Feng
 email1: rfeng6@ncsu.edu
