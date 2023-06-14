@@ -2,7 +2,8 @@
 layout: post
 title: "PyTorch Notes"
 date: 2023-2-6 +0300
-type: "post"
+# type: "post"
+type: "hide"
 ---
 
 Official tutorial [here](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html).
