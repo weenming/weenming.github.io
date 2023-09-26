@@ -11,6 +11,6 @@ This is a project that investigates the classical mechanics problem, tennis rack
 
 More information can be found in this [Github repository](https://github.com/weenming/TRE).
 
-Our work has been published on College Physics and the paper (in Chinese) can be found here [[PDF](/files/Tennis-racke-effect.pdf)].
+Our work has been published on College Physics and the paper (in Chinese) can be found here [[PDF](/files/Tennis-racket-effect.pdf)].
 
 <img src="/images/TRE_phase_space.png" width="300" height="400">
