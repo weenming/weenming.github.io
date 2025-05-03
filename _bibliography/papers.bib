@@ -1,115 +1,85 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{nips = {Advances in Neural Information Processing Systems}}
+@string{iclr = {International Conference on Learning Representations}}
+@string{icml = {International Conference on Machine Learning}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+
+@inproceedings{RobustGNN,
+author = {Hou*, Zhichao and Feng*, Ruiqi and Derr, Tyler and Liu, Xiaorui†},
+booktitle = nips,
+title = {Robust Graph Neural Networks via Unbiased Aggregation},
+url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/c6e31f86c1eb8dfc05190cf15ed52064-Paper-Conference.pdf}, 
+year = {2024},
+pdf={https://arxiv.org/pdf/2311.14934}, 
+preview = {RobustGNN.png}, 
+bibtex_show={true}, 
+abbr={NeurIPS'24},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{NEURIPS2024_07a363fd,
+author = {Wei*, Long and Hu*, Peiyan and Feng*, Ruiqi and Feng, Haodong and Du, Yixuan and Zhang, Tao and Wang, Rui and Wang, Yue and Ma, Zhi-Ming and Wu, Tailin†},
+booktitle = nips,
+editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+pages = {4090--4147},
+publisher = {Curran Associates, Inc.},
+title = {DiffPhyCon: A Generative Approach to Control Complex Physical Systems},
+volume = {37},
+year = {2024}, 
+bibtex_show={true}, 
+pdf = {https://proceedings.neurips.cc/paper_files/paper/2024/file/07a363fd2263091c2063998e0034999c-Paper-Conference.pdf},
+preview = {diffphycon.png},
+abbr={NeurIPS'24},
+selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+% year 2025
+@inproceedings{
+feng2025on,
+title={On the Guidance of Flow Matching},
+author={Ruiqi Feng and Tailin Wu† and Chenglei Yu and Wenhao Deng and Peiyan Hu},
+booktitle=icml,
+year={2025},
+pdf={https://openreview.net/forum?id=pKaNgFzJBy},
+bibtex_show={true},
+abbr={ICML'25},
+preview = {flow_guidance.png},
+award={In 2025, ICML received 12,107 submissions (not including desk-rejected papers). From these submissions, 3,260 were accepted, giving an acceptance rate of 26.9\%. Only 313 were designated as "spotlight posters" -- representing the top 2.6\% of all submissions. The spotlights represent the submissions most highly-recommended by the program committee.},
+award_name={spotlight},
+selected={true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{
+hu2025from,
+title={From Uncertain to Safe: Conformal Fine-Tuning of Diffusion Models for Safe {PDE} Control},
+author={Peiyan Hu* and Xiaowei Qian* and Wenhao Deng and Rui Wang and Haodong Feng and Ruiqi Feng and Tao Zhang, Long Wei and Yue Wang and Zhi-Ming Ma and Tailin Wu†},
+booktitle=icml,
+year={2025},
+pdf={https://openreview.net/forum?id=XGJ33p4qwt},
+bibtex_show={true},
+abbr={ICML'25},
+}
+@inproceedings{
+wei2025cldiffphycon,
+title={{CL}-DiffPhyCon: Closed-loop Diffusion Control of Complex Physical Systems},
+author={Long Wei* and Haodong Feng* and Yuchen Yang and Ruiqi Feng and Peiyan Hu and Xiang Zheng and Tao Zhang and Dixia Fan and Tailin Wu†},
+booktitle=iclr,
+year={2025},
+pdf={https://openreview.net/forum?id=PiHGrTTnvb},
+bibtex_show={true},
+preview = {cl-diffphycon.png},
+abbr={ICLR'25},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{
+hu2025wavelet,
+title={Wavelet Diffusion Neural Operator},
+author={Peiyan Hu* and Rui Wang* and Xiang Zheng and Tao Zhang and Haodong Feng and Ruiqi Feng and Long Wei and Yue Wang and Zhi-Ming Ma and Tailin Wu†},
+booktitle=iclr,
+year={2025},
+pdf={https://openreview.net/forum?id=FQhDIGuaJ4},
+bibtex_show={true},
+abbr={ICLR'25},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
