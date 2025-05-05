@@ -26,7 +26,7 @@ latest_posts:
 ---
 
 
-My name is Ruiqi Feng. I am currently a PhD student in the Engineering School of Westlake University, advised by [Prof. Tailin Wu](https://tailin.org/). 
+Hi there! I am currently a PhD student in the Engineering School of Westlake University, advised by [Prof. Tailin Wu](https://tailin.org/). 
 
 My research interests lie at the intersection of artificial intelligence and physics, as well as other natural sciences.
 
